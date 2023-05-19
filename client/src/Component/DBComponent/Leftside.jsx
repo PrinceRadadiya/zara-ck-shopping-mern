@@ -14,19 +14,34 @@ const Leftside = () => {
       </div>
 
       <ul className="flex flex-col items-center justify-center py-12">
-        <NavLink className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]" to={"/dash/Home"}>
+        <NavLink
+          className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]"
+          to={"/dash/Home"}
+        >
           Home
         </NavLink>
-        <NavLink className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]" to={"/dash/Orders"}>
+        <NavLink
+          className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]"
+          to={"/dash/Orders"}
+        >
           Orders
         </NavLink>
-        <NavLink className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]" to={"/dash/iteams"}>
+        <NavLink
+          className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]"
+          to={"/dash/iteams"}
+        >
           iteams
         </NavLink>
-        <NavLink className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]" to={"/dash/Addpro"}>
+        <NavLink
+          className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]"
+          to={"/dash/Addpro"}
+        >
           Add Product
         </NavLink>
-        <NavLink className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]" to={"/dash/Users"}>
+        <NavLink
+          className="p-4 cursor-pointer font-thin uppercase hover:px-5 hover:py-4 hover:border hover:border-[#2F3B3B]"
+          to={"/dash/Users"}
+        >
           Users
         </NavLink>
       </ul>

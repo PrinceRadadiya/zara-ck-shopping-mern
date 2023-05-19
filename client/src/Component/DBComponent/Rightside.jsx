@@ -9,18 +9,21 @@ import Iteams from "./Rheader/Show_items/Iteams";
 
 const Rightside = () => {
   return (
-    <div className="flex flex-col h-full py-12 p-5 w-full bg-[#EAF1F1]">
-      <RightHeader />
-      <div className="flex flex-col flex-1">
-        <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Orders" element={<Orders />} />
-          <Route path="/iteams" element={<Iteams />} />
-          <Route path="/Addpro" element={<Addpro />} />
-          <Route path="/Users" element={<Users />} />
-        </Routes>
+    <>
+      <div className="flex flex-col h-full py-12 p-5 w-full bg-[#EAF1F1]">
+        <RightHeader />
+
+        <div className="flex flex-col flex-1">
+          <Routes>
+            <Route path="/Home" element={<Home />} />
+            <Route path="/Orders" element={<Orders />} />
+            <Route path="/iteams" element={<Iteams />} />
+            <Route path="/Addpro" element={<Addpro />} />
+            <Route path="/Users" element={<Users />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
